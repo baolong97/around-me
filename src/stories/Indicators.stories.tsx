@@ -12,7 +12,7 @@ export default {
 
 const Template: ComponentStory<typeof Indicators> = (args) => {
   const [currentIdx, setCurrentIdx] = useState(0)
-  return <div css={{ backgroundColor: 'red' }}>
+  return <div css={{ backgroundColor: 'black' }}>
     <Indicators {...args} currentIdx={currentIdx} onSelect={setCurrentIdx}/>
   </div>
 }
